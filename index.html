@@ -6,13 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Benjamin Tyler</title>
-    <!-- TODO: Choose new title  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
     <script src="JS/script.js"></script>
-    <!-- TODO: add a responsive style sheet to seperate the media queries-->
+    <!-- TODO: add a responsive style sheet to seperate and tidy up media queries-->
 </head>
 
 <body>
@@ -33,59 +31,146 @@
 
         <nav id="drawer" class="nav">
             <ul class="nav_list" id="my_nav_list">
-                <li class="nav_item"><a href="D:\Videos\FEWD course\Portfolio project\v4\index.html">Home</a></li>
-                <li class="nav_item"><a href="D:\Videos\FEWD course\Portfolio project\v4\About_me.html">About me</a></li>
-                <li class="nav_item"><a href="D:\Videos\FEWD course\Portfolio project\v4\Projects.html">Projects</a></li>
-                <li class="nav_item"><a href="D:\Videos\FEWD course\Portfolio project\v4\Blog.html">Blog</a></li>
-                <li class="nav_item"><a href="D:\Videos\FEWD course\Portfolio project\v4\Contact.html">Contact</a></li>
+                <li class="nav_item"><a href=".\index.html">Home</a></li>
+                <li class="nav_item"><a href=".\About_me.html">About me</a></li>
+                <li class="nav_item"><a href=".\Projects.html">Projects</a></li>
+                <li class="nav_item"><a href=".\Blog.html">Blog</a></li>
+                <li class="nav_item"><a href=".\Contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="content">
-
-            <!-- <section class="hero_wrapper">
-                <img class="hero" src="D:\Videos\FEWD course\Portfolio project\v4\images\Flow_pic_large_crop.jpg" alt="https://pxhere.com/en/photo/1087236 996x528 image alt text here">
-                <article class="hero_article">
-                    <h2>Featured post</h2>
-                    <p>5 ways to help you 'Flow' and more importantly, stay there...</p>
-                </article>
-            </section>-->
-
             <section class="hero_text">
                 <h2>
                     I am a systems engineer and front end web developer in Hertfordshire. I create <a class="txtext">clean, simple</a> brands and applications that communicate the <a class="txtext">values</a> and <a class="txtext">individuality</a> my
                     clients deserve.
                 </h2>
             </section>
-
-
+            <hr>
             <section class="featured_work">
                 <h2 class="featured_title">
                     Featured work
                 </h2>
-                <div class="project_flex_container">
-                    <article class="flex_item">
-                        <a href="#">
-                            <picture class="thumbnail">
-                                <img src="https://picsum.photos/g/1000/1000" alt="A banana that looks like a bird">
-                            </picture>
+                <div class="project_flex">
+                    <div class="flex_item">
+                        <a href=".\Projects.html"><img src=".\images\Projects\Flow\flow_pic_large_thumbnail.jpg" alt="5 Ways to help you flow" class="image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p class="txtext">BLOG</p>5 ways to help you 'Flow' and more importantly, stay there...
+                                </div>
+                            </div>
                         </a>
-                    </article>
-                    <article class="flex_item">2</article>
-                    <article class="flex_item">3</article>
-                    <article class="flex_item">4</article>
-                    <article class="flex_item">5</article>
-                    <article class="flex_item">6</article>
+                    </div>
+                    <div class="flex_item">
+                        <a href="#"><img src=".\images\Projects\Sprint_ready\sprint_ready_flex.jpg" alt="Sprint ready?" class="image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p class="txtext">BLOG</p>ARE YOU SPRINT READY? Definition of ready in scrum
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex_item">
+                        <a href="#"><img src=".\images\Projects\image_placeholder.jpg" class="image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p class="txtext">PROJECT</p>Coming soon
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex_item">
+                        <a href="#"><img src=".\images\Projects\image_placeholder.jpg" class="image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p class="txtext">PROJECT</p>Coming soon
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex_item">
+                        <a href="#"><img src=".\images\Projects\image_placeholder.jpg" class="image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p class="txtext">PROJECT</p>Coming soon
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex_item">
+                        <a href="#"><img src=".\images\Projects\image_placeholder.jpg" class="image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p class="txtext">PROJECT</p>Coming soon
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <!--TODO: Add a "View more " at the bottom of the project items linking to the projects page-->
+                <!--TODO: Add a "View more" at the bottom of the project items linking to the projects page-->
             </section>
+        </section>
+        <hr>
+        <section class="worked_with_content">
+            <h2 class="featured_title">
+                Companies i've worked with
+            </h2>
+            <div class="worked_with_flex">
+                <div class="worked_with_flex_item">
+                    <img src=".\images\Worked_with\Zendesk\Zen_logo_vector.svg" alt="Zendesk" class="worked_with_flex_image">
+                </div>
+                <div class="worked_with_flex_item">
+                    <img src=".\images\Worked_with\Xmatters\xmatters_logo.svg" alt="xMatters" class="worked_with_flex_image">
+                </div>
+                <div class="worked_with_flex_item">
+                    <img src=".\images\Worked_with\Tesco\Tesco_logo_1.svg" alt="Tesco" class="worked_with_flex_image">
+                </div>
+                <div class="worked_with_flex_item">
+                    <img src=".\images\Worked_with\Verizon\Verizon_logo.svg" alt="Verizon" class="worked_with_flex_image">
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <div class="content" id="footer_content">
-            <p>©2018 Benjamin Tyler <span>- <a href="https://lgbt.foundation" title="Proud Supporter of LGBQT+ awareness">Proud Supporter of LGBQT+ awareness</a></span></p>
-        </div>
+        <section class="upper_footer_content">
+            <div class="footer_flexbox">
+                <div class="footer_flex_item">
+                    <h3>Explore my site</h3>
+                    <ul>
+                        <li><a href=".\About_me.html" title="About me">About me<span class="fa fa-caret-right"></span></a></li>
+                        <li><a href=".\Projects.html" title="Projects">Projects<span class="fa fa-caret-right"></span></a></li>
+                        <li><a href=".\Blog.html" title="Blog">Blog<span class="fa fa-caret-right"></span></a></li>
+                        <li><a href=".\Contact.html" title="Contact">Contact<span class="fa fa-caret-right"></span></a></li>
+                        <li><a href="#" title="Sitemap">Site Map<span class="fa fa-caret-right"></span></a></li>     
+                    </ul>
+                </div>
+                <div class="footer_flex_item">
+                    <h3>Stay in touch</h3>
+                    <ul class="social-media-icons">
+                        <li><a href="#" title="Email">Email<span class="fa fa-envelope"></span></a></li>
+                        <li><a href="twitter.com/utwblog" title="Twitter">Twitter<span class="fa fa-twitter"></span></a></li>
+                        <li><a href="www.linkedin.com/in/benandrewtyler/" title="LinkedIn">LinkedIn<span class="fa fa-linkedin"></span></a></li>
+                        <li><a href="www.instagram.com/benandrewtyler/" title="Instagram">Instagram<span class="fa fa-instagram"></span></a></li>   
+                    </ul>
+                </div>
+                <div class="footer_flex_item">
+                    <h3>Get notified when I do things</h3>
+                    <div class="subscription-form">
+                        <form action="action_page.php">
+                            <input type="text" placeholder="Name" name="name" required>
+                            <input type="text" placeholder="Email address" name="mail" required>
+                            <div class="container">
+                                <input type="submit" value="Subscribe">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="lower_footer_content">
+            <p>©2018 Benjamin Tyler <span>- <a href="https://lgbt.foundation" title="ally of LGBQT+ awareness">ally of LGBQT+ awareness</a></span></p>
+        </section>
     </footer>
 </body>
 

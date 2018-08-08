@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>BT Portfolio</title>
+    <title>Benjamin Tyler</title>
     <!-- TODO: Choose new title  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
     <script src="JS/script.js"></script>
@@ -22,40 +21,88 @@
                 <h1 class="header_title">
                     Benjamin Tyler
                 </h1>
-                <h3 class="header_subheading">
+                <h2 class="header_subheading">
                     Systems engineer/Web dev
-                </h3>
+                </h2>
                 <div onclick="myFunction()" class="icon">
                     <i class="fa fa-bars"></i>
                 </div>
             </div>
         </section>
-    </header>
-    <nav id="drawer" class="nav">
-        <ul class="nav_list" id="my_nav_list">
-            <li class="nav_item"><a href="D:\Videos\FEWD course\Portfolio project\v1\index.html">Home</a></li>
-            <li class="nav_item"><a href="D:\Videos\FEWD course\Portfolio project\v1\About_me.html">About me</a></li>
-            <li class="nav_item"><a href="D:\Videos\FEWD course\Portfolio project\v1\Projects.html">Projects</a></li>
-            <li class="nav_item"><a href="D:\Videos\FEWD course\Portfolio project\v1\Blog.html">Blog</a></li>
-            <li class="nav_item"><a href="D:\Videos\FEWD course\Portfolio project\v1\Contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section class="content">
-            <section class="hero_wrapper">
-                <img class="hero" src="https://picsum.photos/500/200?random" srcset="https://picsum.photos/1000/400?random 1000w, https://picsum.photos/2000/800?random 2000w" alt="image alt text here">
-                <!-- TODO: Add my pics  -->
-                <div class="hero_text">
-                    <h2>
-                        I am a systems engineer and front end web developer in Hertfordshire. I create brands and applications that communicate the values, philosophy and individuality that each of my clients deserve.
-                    </h2>
-                </div>
-            </section>
 
+        <nav id="drawer" class="nav">
+            <ul class="nav_list" id="my_nav_list">
+                <li class="nav_item"><a href=".\index.html">Home</a></li>
+                <li class="nav_item"><a href=".\About_me.html">About me</a></li>
+                <li class="nav_item"><a href=".\Projects.html">Projects</a></li>
+                <li class="nav_item"><a href=".\Blog.html">Blog</a></li>
+                <li class="nav_item"><a href=".\Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section></section>
+        <hr>
+        <section class="worked_with_content">
+            <h2 class="featured_title">
+                Companies i've worked with
+            </h2>
+            <div class="worked_with_flex">
+                <div class="worked_with_flex_item">
+                    <img src=".\images\Worked with\Zendesk\Zen_logo_vector.svg" alt="Zendesk" class="worked_with_flex_image">
+                </div>
+                <div class="worked_with_flex_item">
+                    <img src=".\images\Worked with\Xmatters\xmatters_logo.svg" alt="xMatters" class="worked_with_flex_image">
+                </div>
+                <div class="worked_with_flex_item">
+                    <img src=".\images\Worked with\Tesco\Tesco_logo_1.svg" alt="Tesco" class="worked_with_flex_image">
+                </div>
+                <div class="worked_with_flex_item">
+                    <img src=".\images\Worked with\Verizon\Verizon_logo.svg" alt="Verizon" class="worked_with_flex_image">
+                </div>
+            </div>
         </section>
-        <footer>
-        </footer>
     </main>
+    <footer>
+        <section class="upper_footer_content">
+            <div class="footer_flexbox">
+                <div class="footer_flex_item">
+                    <h3>Explore my site</h3>
+                    <ul>
+                        <li><a href="#" title="About me">About me<span class="fa fa-caret-right"></span></a></li>
+                        <li><a href="#" title="Projects">Projects<span class="fa fa-caret-right"></span></a></li>
+                        <li><a href="#" title="Blog">Blog<span class="fa fa-caret-right"></span></a></li>
+                        <li><a href="#" title="Contact">Contact<span class="fa fa-caret-right"></span></a></li>
+                        <li><a href="#" title="Sitemap">Site Map<span class="fa fa-caret-right"></span></a></li>     
+                    </ul>
+                </div>
+                <div class="footer_flex_item">
+                    <h3>Stay in touch</h3>
+                    <ul class="social-media-icons">
+                        <li><a href="#" title="Email">Email<span class="fa fa-envelope"></span></a></li>
+                        <li><a href="twitter.com/utwblog" title="Twitter">Twitter<span class="fa fa-twitter"></span></a></li>
+                        <li><a href="www.linkedin.com/in/benandrewtyler/" title="LinkedIn">LinkedIn<span class="fa fa-linkedin"></span></a></li>
+                        <li><a href="www.instagram.com/benandrewtyler/" title="Instagram">Instagram<span class="fa fa-instagram"></span></a></li>   
+                    </ul>
+                </div>
+                <div class="footer_flex_item">
+                    <h3>Get notified when I do things</h3>
+                    <div class="subscription-form">
+                        <form action="action_page.php">
+                            <input type="text" placeholder="Name" name="name" required>
+                            <input type="text" placeholder="Email address" name="mail" required>
+                            <div class="container">
+                                <input type="submit" value="Subscribe">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="lower_footer_content">
+            <p>©2018 Benjamin Tyler <span>- <a href="https://lgbt.foundation" title="ally of LGBQT+ awareness">ally of LGBQT+ awareness</a></span></p>
+        </section>
+    </footer>
 </body>
 
 </html>
