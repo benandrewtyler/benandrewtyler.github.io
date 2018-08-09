@@ -74,6 +74,12 @@ a:hover {
 
 /*Header*/
 
+.header_section img {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
 .header_section {
     overflow: hidden;
     padding: 15px 0 10px 15px;
@@ -266,7 +272,7 @@ main {
     list-style: none;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .worked_with_flex_image {
@@ -524,6 +530,15 @@ input[type=submit]:hover {
 /* Home page Media queries */
 
 @media all and (max-width: 600px) {
+    .header_section img {
+        width: 90px;
+        height: 90px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
     .header_subheading {
         text-align: center;
         padding-top: 0px;
